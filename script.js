@@ -1,13 +1,8 @@
-// const header = document.querySelector('.header');
-// const logoHeader = document.querySelector('.trybewarts-header-logo');
-// const formLogin = document.querySelector('.trybewarts-login');
 const login = document.querySelector('#email');
 const password = document.querySelector('#password');
 const buttonEntrar = document.querySelector('#entrar');
-// const formEvaluation = document.querySelector('#evaluation-form');
 const checkboxAgreement = document.querySelector('#agreement');
 const enviarFormEvaluation = document.querySelector('#submit-btn');
-// const counterTextArea = document.querySelector('#counter');
 const textArea = document.querySelector('#textarea');
 const labelDoContador = document.querySelector('#counter');
 const casaSelect = document.querySelector('#house');
