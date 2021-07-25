@@ -4,7 +4,7 @@
 
 ---
 
-![Project's Image](./img/project-image.jpeg)
+![Project's Image](./images/project-image.jpeg)
 
 ---
 
