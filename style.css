@@ -9,8 +9,8 @@ body {
 }
 
 .header {
-  display: flex;
   background-color: rgb(50, 167, 145);
+  display: flex;
   justify-content: space-around;
   padding: 10px 0;
 }
@@ -202,13 +202,26 @@ hr {
 footer {
   align-items: center;
   background-color: #333333;
-  color: white;
+  border-radius: 10px 10px 0 0;
+  color: #f8f9fa;
   display: flex;
-  font-size: 20px;
-  height: 104px;
-  justify-content: center;
+  flex-direction: column;
+  height: 20em;
+  justify-content: space-around;
+  padding: 15px 5px;
+}
+
+footer h2 {
   text-align: center;
 }
+
+footer ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  width: 100%;
+}
+
 
 @media screen and (max-width: 1300px) {
   .container-form {
